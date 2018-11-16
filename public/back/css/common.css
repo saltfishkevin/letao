@@ -107,7 +107,7 @@ ul{
 /* 右侧公共部分样式 */
 .lt_main{
   height: 1000px;
-  background-color: pink;
+  /* background-color: pink; */
   padding-left: 180px;
   padding-top: 50px;
   transition: all 1s;
@@ -137,7 +137,14 @@ ul{
   color: #fff;
   font-size: 20px;
 }
-
 .mt_20{
   margin-top: 20px;
+}
+
+/* 右侧内容部分 */
+.echarts_left,
+.echarts_right{
+  height: 400px;
+  width: 48%;
+  /* background-color: skyblue; */
 }
